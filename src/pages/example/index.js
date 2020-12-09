@@ -1,7 +1,7 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Donations from "../components/Donations";
-import Masthead from "../components/Masthead";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import Donations from "../../components/Donations";
+import Masthead from "../../components/Masthead";
 /**
  *  @description
  *  This is the root (or index) page of our application.
@@ -13,18 +13,16 @@ import Masthead from "../components/Masthead";
  *  Your server to be running ---> Run `npm run dev` in your terminal
  */
 
-function Home() {
+function Example() {
   return (
     <div>
         <Masthead />
       <Navbar />
       <section>
         <div className="container">
-          <h1>Welcome to War Supplies!</h1>
+          <h1>Welcome to ze end :\</h1>
           <p>
-            Help contribute to the war by donating any supplies that you
-            can spare to those who need them the most! (especially with what's
-            going on in the galaxy today)
+              Another page bites the dust.. j-join the war effort! Yorushiku..
           </p>
         </div>
       </section>
@@ -34,4 +32,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Example;

@@ -1,17 +1,24 @@
 const sampleDonations = [
   {
     id: "1",
-    unit: "roll",
-    quantity: "111",
+    unit: "unit(s)",
+    quantity: "16089",
     division: "simei",
-    name: "Toilet Roll",
+    name: "Lightsabers",
   },
   {
     id: "2",
-    unit: "piece",
-    quantity: "2",
+    unit: "chunk(s)",
+    quantity: "420",
     division: "buangkok",
-    name: "Prata",
+    name: "Asteroids",
+  },
+  {
+    id: "3",
+    unit: "unit(s)",
+    quantity: "1337",
+    division: "nether",
+    name: "Nuclear warheads",
   },
 ];
 

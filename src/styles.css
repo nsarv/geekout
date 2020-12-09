@@ -81,3 +81,9 @@ section .container {
   background: #f9f9f9;
   color: #3d4c60;
 }
+
+.masthead{
+    background: #800000;
+    color: #FFFFFF;
+    height: 30px
+}
